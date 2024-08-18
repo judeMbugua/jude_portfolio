@@ -1,0 +1,93 @@
+.contact-container{
+    color: white;
+    width: 100%;
+    height: fit-content;
+    padding-bottom: 1rem;
+    margin-top: .3rem;
+}
+
+
+.contact-container hr{
+    width: calc(100% - 6rem);
+    margin: 0 auto; 
+    border: none; 
+    border-top: 2px solid #d03409; 
+    padding-bottom: .5rem;
+}
+
+
+.contact-container .tit-text{
+    text-align: center;
+    font-size: 1.4rem;
+    padding-top: .7rem;
+    padding-bottom: .4rem;
+    margin-bottom: .2rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.tit-text .glow{
+    color: rgb(189, 189, 42);
+}
+
+.contact-intro{
+    padding-inline: 1rem;
+    text-align: left;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;   
+    font-size: .9rem;
+}
+
+
+.form-container{
+    margin-top: .4rem;
+    text-align: center;
+}
+
+.form-container input,textarea{
+    margin-top: 1rem;
+    width: 15rem;
+    height: 2rem;
+    padding-inline-start: .3rem;
+    background-color: rgba(208, 193, 193, 0.253);
+    color: white;
+    border-radius: .4rem;
+    border: none;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+}
+
+
+::placeholder{
+    color: rgba(250, 250, 250, 0.902);
+    
+}
+
+form .message {
+    height: 5rem;
+    box-sizing: border-box;
+    resize: none;
+    overflow-y: auto;
+    padding-block-start: .3rem;
+
+  }
+  
+.message::placeholder {
+    vertical-align: top;
+  }
+  
+  
+form button{
+    width: 9rem;
+    height: 2.1rem;
+    font-size: 1rem;
+    border-radius: .5rem;
+    background-color: rgb(200, 222, 39);
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    margin-inline: 1rem;
+    margin-top: 1rem;
+}

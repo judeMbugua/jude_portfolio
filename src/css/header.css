@@ -1,0 +1,26 @@
+
+.header-container{
+	margin-top: .4rem;
+}
+
+.header-container hr{
+	margin-top: 4rem;
+	position: absolute;
+    width:100%; 
+    border-width: .1px;
+    border-top: 2px solid #636161; 
+	z-index: -3;
+}
+
+.my-name{
+	position: absolute;
+	color: #f6f6f7;
+	margin-left:1rem;
+	margin-top: .8rem;
+	font-size: 1.3rem;
+	letter-spacing: 3px;
+	font-family: "Pacifico", cursive;
+  	font-weight: 500;
+  	font-style: normal;
+	
+}

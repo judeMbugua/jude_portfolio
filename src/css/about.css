@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Averia+Sans+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+.about-container{
+    margin-top: 3rem;
+}
+
+
+.head-container{
+    color: white;
+    text-align: center;
+    width: 100%;
+    height: 3rem;
+
+    
+}
+
+.head-container p{
+    font-size: 1.4rem;
+    padding-top: .7rem;
+    padding-bottom: .2rem;
+    margin-bottom: .2rem;
+    
+    
+}
+
+.head-container hr{
+    width: calc(100% - 6rem);
+    margin: 0 auto; 
+    border: none; 
+    border-top: 2px solid #2fba22b5;
+    padding-bottom: .5rem;
+}
+
+
+.aboutMe-container{
+    color: white;
+    margin-top: .2rem;
+    margin-inline: 1.5rem;
+    text-align: left;
+    font-size: 1rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: 450;
+    font-style: normal;
+    margin-bottom: -1.5rem;
+}

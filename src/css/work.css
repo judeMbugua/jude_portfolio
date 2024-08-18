@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Averia+Sans+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Averia+Sans+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Moderustic:wght@300..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Averia+Sans+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Moderustic:wght@300..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.work-container{
+    margin-top: 3rem;
+    margin-bottom: -1.5rem;
+}
+
+
+.work-container{
+    color: white;
+    text-align: center;
+    width: 100%;
+    height: fit-content;
+    
+    
+}
+
+.work-head-container p{
+    font-size: 1.4rem;
+    padding-top: .7rem;
+    padding-bottom: .4rem;
+    margin-bottom: .2rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    
+}
+
+.work-head-container hr{
+    width: calc(100% - 6rem);
+    margin: 0 auto; 
+    border: none; 
+    border-top: 2px solid #0d7888; 
+    padding-bottom: .5rem;
+}
+
+
+.wrapper{
+    height:max-content;
+    width: inherit;
+    margin-top: -3.2rem;
+    display:grid;
+    gap: 55px;
+    grid-auto-flow:column;
+    grid-auto-columns: 200px;
+    overflow-x:auto;
+    overflow-y: hidden;
+    overscroll-behavior-inline: contain;
+    margin-bottom: 2rem;
+    
+  
+    
+}
+
+
+.wrapper::-webkit-scrollbar {
+    display: none; /* For Chrome, Safari, and Edge */
+  }
+
+.project-card{
+    margin-top: 1rem;
+    height: fit-content;
+    width: 15rem;
+    box-shadow: rgb(18, 175, 68) 0px 1px 3px 0px, rgba(6, 95, 184, 0.788) 0px 0px 0px 1px;
+    margin-bottom: 1rem;
+    border-radius: .5rem;
+    margin-inline-start: .5rem;
+    margin-inline-end: 1.5rem;
+    padding-bottom: .6rem;
+ 
+    
+ 
+}
+
+.image-container{
+    width: inherit;
+}
+
+.image-container img{
+    width: 100%;
+    height: 10rem;
+    border-radius: .5rem;
+}
+
+
+.image-container .special{ 
+    width: max-content;
+
+}
+
+.info-container{
+    margin-top: .1rem;
+    padding-block: .2rem;
+    text-align: left;
+    margin-inline: .6rem;
+}
+
+.info-container p{
+    margin-top: .5rem;
+}
+
+.visit-icon{
+    width: 2.5rem;
+    margin-top: -1.5rem;
+    margin-left: 9rem;
+}
+
+
+.info-container .proj-name{
+    text-align: left;
+    font-size: 1.2rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+
+.info-container .tech-stack{
+    font-family: "Lato", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: .7rem;
+    color: rgb(246, 246, 104);
+  
+}
+
+
+.info-container .proj-desc{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: .83rem;
+}
