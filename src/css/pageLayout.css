@@ -11,7 +11,7 @@ html{
 .page-layout-container{
     max-width:430px ;
     height: 70vh;
-    background-image: url("back.jpg");
+    background-image: url("../../public/back.jpg");
     background-size: 100% 20rem;
     background-position-y: 6rem;
     background-repeat: no-repeat;
