@@ -30,14 +30,18 @@ export default function Work() {
               </p>
 
               <p className="proj-desc">
-                This web app allows users to create an account and have diffrent categories ToDo lists which are quickly accessible thus saves time and boosts productivity.
+              Quick Tasks is a web app that enables users to create accounts and organize To-Do lists into distinct categories, ensuring quick access and enhanced productivity.
               </p>
             </div>
 
           <div className="btn-container">
+
+          <a href="https://github.com/judeMbugua/MeDo--ToDolist" target="_blank" rel="noopener noreferrer">
             <button className="proj-btn">
-              Visit
+              Source Code
             </button>
+            </a>
+
           </div>
 
           </div>
@@ -60,14 +64,16 @@ export default function Work() {
               </p>
 
               <p className="proj-desc">
-                I made this e-commerce website for a clothes and shoes online shop.I used Html and CSS for frontend and for backend I used the Python Django framework.
+              I created this e-commerce website for an online clothes and shoes shop. The site is integrated with PayPal and M-Pesa for seamless and secure payments.
               </p>
             </div>
 
             <div className="btn-container">
+            <a href="https://github.com/judeMbugua/QuietComforts" target="_blank" rel="noopener noreferrer">
             <button className="proj-btn">
-              Visit
+              Source Code
             </button>
+            </a>
           </div>
           </div>
 
@@ -91,14 +97,16 @@ export default function Work() {
               </p>
 
               <p className="proj-desc">
-                I made this Pomodoro style timer.I used React for frontend and Django for backend.The web app allows users to log in and save completed tasks in a database.
+              I created a Pomodoro-style timer web app that enables users to log in, track their productivity, and store completed tasks in a database for easy reference.
               </p>
             </div>
 
           <div className="btn-container">
+          <a href="https://github.com/judeMbugua/PomodoroTimer" target="_blank" rel="noopener noreferrer">
             <button className="proj-btn">
-              Visit
+              Source Code
             </button>
+            </a>
           </div>
 
           </div>
@@ -127,9 +135,11 @@ export default function Work() {
             </div>
 
           <div className="btn-container">
+            <a href="https://github.com/judeMbugua/autoRelay" target="_blank" rel="noopener noreferrer">
             <button className="proj-btn">
-              Visit
+              Source Code
             </button>
+            </a>
           </div>
 
           </div>
