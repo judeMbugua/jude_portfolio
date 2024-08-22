@@ -40,7 +40,7 @@
 
 
 .wrapper{
-    height:max-content;
+    height:fit-content;
     width: inherit;
     margin-top: -3.2rem;
     display:grid;
@@ -70,7 +70,6 @@
     border-radius: .5rem;
     margin-inline-start: .5rem;
     margin-inline-end: 1.5rem;
-    padding-bottom: .6rem;
  
     
  
@@ -97,6 +96,7 @@
     padding-block: .2rem;
     text-align: left;
     margin-inline: .6rem;
+    
 }
 
 .info-container p{
@@ -135,3 +135,150 @@
     font-style: normal;
     font-size: .83rem;
 }
+
+
+
+
+
+
+/* ------TABLET SCREENS START---------- */
+@media (min-width: 600px) and (max-width: 900px) {
+    .work-container{
+        margin-top: 3.5rem;
+        margin-bottom: -1.5rem;
+    }
+    
+    
+    .work-container{
+        color: white;
+        text-align: center;
+        width: 100%;
+        height: fit-content;
+        
+        
+    }
+    
+    .work-head-container p{
+        font-size: 2.5rem;
+        padding-top: .7rem;
+        padding-bottom: .5rem;
+        margin-bottom: .2rem;
+        font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        
+    }
+    
+    .work-head-container hr{
+        width: calc(100% - 6rem);
+        margin: 0 auto; 
+        border: none; 
+        border-top: 2px solid #0d7888; 
+        padding-bottom: .5rem;
+    }
+    
+    
+    .wrapper{
+        height:max-content;
+        width: inherit;
+        margin-top: -3.2rem;
+        display:grid;
+        gap: 550px;
+        grid-auto-flow:column;
+        grid-auto-columns: 100px;
+        overflow-x:auto;
+        overflow-y: hidden;
+        overscroll-behavior-inline: contain;
+        margin-bottom: 2rem;
+        
+      
+        
+    }
+    
+    
+    .wrapper::-webkit-scrollbar {
+        display: none; /* For Chrome, Safari, and Edge */
+      }
+    
+    .project-card{
+        margin-top: 1rem;
+        height: fit-content;
+        width: 630px;
+        box-shadow: rgb(18, 175, 68) 0px 1px 3px 0px, rgba(6, 95, 184, 0.788) 0px 0px 0px 1px;
+        margin-bottom: 1rem;
+        border-radius: .5rem;
+        margin-inline-start: .5rem;
+        margin-inline-end: 1.5rem;
+        padding-bottom: .6rem;
+     
+        
+     
+    }
+    
+    .image-container{
+        width: auto;
+    }
+    
+    .image-container img{
+        width: 600px;
+        height: 500px;
+        border-radius: .5rem;
+    }
+    
+    
+    .image-container .special{ 
+        width: auto;
+    
+    }
+    
+    .info-container{
+        margin-top: .5rem;
+        padding-block: .2rem;
+        text-align: left;
+        margin-inline: .6rem;
+    }
+    
+    .info-container p{
+        margin-top: .9rem;
+    }
+    
+    
+    .info-container .proj-name{
+        text-align: left;
+        font-size: 2.3rem;
+        font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+    }
+    
+    
+    .info-container .tech-stack{
+        font-family: "Lato", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 1.2rem;
+        color: rgb(246, 246, 104);
+      
+    }
+    
+    
+    .info-container .proj-desc{
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 1.5rem;
+    }
+    
+
+
+    .project-card .btn-container{
+        padding-block:1rem;
+    }
+
+
+
+
+
+}
+
+/* ------TABLET SCREENS END---------- */

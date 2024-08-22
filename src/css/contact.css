@@ -28,7 +28,7 @@
 }
 
 .tit-text .glow{
-    color: rgb(189, 189, 42);
+    color: rgb(235, 235, 13);
 }
 
 .contact-intro{
@@ -91,3 +91,108 @@ form button{
     margin-inline: 1rem;
     margin-top: 1rem;
 }
+
+
+
+/* ------TABLET SCREENS START---------- */
+@media (min-width: 600px) and (max-width: 900px) {
+
+    .contact-container{
+        color: white;
+        width: 100%;
+        height: fit-content;
+        padding-bottom: 1rem;
+        margin-top: .3rem;
+    }
+    
+    
+    .contact-container hr{
+        width: calc(100% - 6rem);
+        margin: 0 auto; 
+        border: none; 
+        border-top: 2px solid #d03409; 
+        padding-bottom: 1rem;
+    }
+    
+    
+    .contact-container .tit-text{
+        text-align: center;
+        font-size: 2.5rem;
+        padding-top: 1rem;
+        font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+    }
+    
+
+    
+    .contact-intro{
+        padding-inline: 1rem;
+        text-align: center;
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-style: normal;   
+        font-size: 1.5rem;
+    }
+    
+    
+    .form-container{
+        margin-top: .5rem;
+        text-align: center;
+    }
+    
+    .form-container input,textarea{
+        margin-top: 2rem;
+        width: 30rem;
+        height: 3rem;
+        padding-inline-start: .3rem;
+        background-color: rgba(208, 193, 193, 0.253);
+        color: white;
+        border-radius: .4rem;
+        border: none;
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-size: 1.5rem;
+    }
+    
+    
+    ::placeholder{
+        color: rgba(250, 250, 250, 0.902);
+        
+    }
+    
+    form .message {
+        height: 10rem;
+        box-sizing: border-box;
+        resize: none;
+        overflow-y: auto;
+        padding-block-start: .3rem;
+    
+      }
+      
+    .message::placeholder {
+        vertical-align: top;
+      }
+      
+      
+    form button{
+        width: 15rem;
+        height: 3rem;
+        font-size: 1.5rem;
+        border-radius: .5rem;
+        background-color: rgb(200, 222, 39);
+        font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        margin-inline: 1rem;
+        margin-top: 1rem;
+    }
+
+
+
+
+}
+
+/* ------TABLET SCREENS START---------- */
+
+

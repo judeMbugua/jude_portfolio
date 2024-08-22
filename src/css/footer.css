@@ -2,6 +2,7 @@
     display: flex;
     justify-content: space-evenly;
     padding-bottom: 1rem;
+    padding-top: 1rem;
 
 }
 
@@ -30,3 +31,35 @@ hr{
     font-size: 1.0rem;
 }
 
+
+/* ------TABLET SCREENS START---------- */
+@media (min-width: 600px) and (max-width: 900px) {
+
+
+    
+
+    
+
+    
+    .socials-container img{
+        height: 3rem;
+        margin-inline: 1rem;
+        
+    }
+    
+    .socials-container p{
+        color: white;
+        text-align: center;
+        margin-top: .5rem;
+        font-size: 1.3rem;
+    }
+    
+
+
+
+
+    
+
+}
+
+/* ------TABLET SCREENS START---------- */

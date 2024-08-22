@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import '../css/dropdown.css'
+import '../css/dropdown.css';
 
 function DropdownMenu() {
   const [isOpen, setIsOpen] = useState(false);
@@ -13,17 +13,13 @@ function DropdownMenu() {
       <button onClick={toggleDropdown} className="dropdown-button">
         Menu
       </button>
-      {isOpen && (
-        <div className="dropdown-content">
-          <a href="/">About Me</a>
-
-          <hr />
-          <a href="projects">My Work</a>
-
-          <hr />
-          <a href="projects">Contact Me</a>
-        </div>
-      )}
+      <div className={`dropdown-content ${isOpen ? 'show' : ''}`}>
+        <a href="/">About Me</a>
+        <hr />
+        <a href="/projects">My Work</a>
+        <hr />
+        <a href="/contact">Contact Me</a>
+      </div>
     </div>
   );
 }
