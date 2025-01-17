@@ -94,3 +94,25 @@
     background-color: rgba(200, 222, 39, 0.8);
   }
 }
+
+
+
+
+/* ------DESKTOPS  SCREENS START---------- */
+@media (min-width: 1000px) and (max-width: 1500px) {
+
+  .dropdown{
+    margin-right: 4rem;
+   
+  }
+
+
+  .dropdown-content a{
+    font-size: 1.4rem;
+  }
+
+
+
+}
+
+/* ------DESKTOPS  SCREENS END---------- */

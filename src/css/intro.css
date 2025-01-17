@@ -116,13 +116,74 @@
 
 
 
-
-
-
-
-
-
 }
 
 
 /* ------TABLET SCREENS END---------- */
+
+
+
+
+/* ------DESKTOPS  SCREENS START---------- */
+@media (min-width: 1000px) and (max-width: 1500px) {
+
+    .intro-container{
+        margin-top: 7rem;
+        position: absolute;
+        margin-left: 3.3rem;
+        
+    }
+    
+    .intro-container p{
+        color: white;
+        margin-bottom: .4rem;
+        
+    }
+    
+    
+    .name-text{
+        font-family: "Roboto", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 2.4rem;
+        padding-bottom: .8rem;
+        letter-spacing: 2px;
+      
+    }
+    
+    .pos-text{
+        font-family: "Lato", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        padding-bottom: 1rem;
+        font-size: 1.3rem;
+    }
+    
+    .intro-container .btn-container{
+        margin-top: .5rem;
+        text-align: left;
+        width: fit-content;
+        margin-left: -1rem;
+        
+    }
+    
+    .btn-container button{
+        width: 14rem;
+        height: 2.1rem;
+        font-size: 1.4rem;
+        border-radius: .5rem;
+        background-color: rgb(200, 222, 39);
+        color: black;
+        font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+    }
+
+    .btn-container a :hover{
+        cursor: pointer;
+        background-color:rgba(202, 221, 57, 0.888);
+    }
+
+}
+
+/* ------DESKTOPS  SCREENS END---------- */
